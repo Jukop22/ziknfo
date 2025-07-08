@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Redirecting...</title>
+    <title>Redirection...</title>
     <script>
-      const path = window.location.pathname.replace(/^\/ziknfo/, '');
-      const newUrl = '/ziknfo/' + '?redirect=' + encodeURIComponent(path + window.location.search + window.location.hash);
+      const redirect = window.location.pathname + window.location.search + window.location.hash;
+      const newUrl = "/ziknfo/" + "?redirect=" + encodeURIComponent(redirect);
       window.location.replace(newUrl);
     </script>
   </head>
   <body>
-    <p>Redirection vers l'application...</p>
+    <p>Redirection...</p>
   </body>
 </html>

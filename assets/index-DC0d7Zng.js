@@ -417,25 +417,25 @@ ${" ".repeat(U)}${I}
 [b]Disque ${h}[/b]
 `,f[h].forEach(v=>{const y=v.position.toString().padStart(2,"0"),_=v.length?`(${z0(v.length)})`:"";n+=`${y}. ${v.title} ${_}
 `})})}else t.forEach((f,h)=>{const m=(f.position||h+1).toString().padStart(2,"0"),v=f.length?`(${z0(f.length)})`:"";n+=`${m}. ${f.title} ${v}
-`});return n},Z3={classique:{name:"Classique",template:`[center][font=Verdana][size=29][b][color=#1e84cc]**Artiste**
+`});return n},Z3={classique:{name:"Classique",template:`[center][font=Verdana][size=29][color=#1e84cc][b]**Artiste**[/b]
+**Titre album**[/color][/size]
 
-**Titre album**[/color][/b][/size]
-
-[img]**URL Cover**[/img]
+[img width=650]**URL Cover**[/img]
 
 [size=13]
 [b][color=#1e84cc]Album :[/color][/b] **Titre album**
 [b][color=#1e84cc]Artiste :[/color][/b] **Artiste**
 [b][color=#1e84cc]Label :[/color][/b] **Label**
 [/size]
-[size=18]🎶🎶🎶[/size]
+
+[size=29]🎶🎶🎶[/size]
+
 [size=13]
 [b][color=#1e84cc]Genre :[/color][/b] **Genre** **Genre2**
 [b][color=#1e84cc]Date Sortie :[/color][/b] **Annee de publication**
 [b][color=#1e84cc]Nombres de pistes :[/color][/b] **Nombre de pistes**
 [b][color=#1e84cc]Durée totale :[/color][/b] **Duree totale album**
 [/size]
-
 [img]https://i.imgur.com/W3pvv6q.png[/img]
 [size=13]
 **Description** 
@@ -443,18 +443,13 @@ ${" ".repeat(U)}${I}
 [url=**URL Discogs**][img]https://i.imgur.com/IdvBKor.png[/img][/url]  | [url=**URL Listenbrainz**][img]https://zupimages.net/up/21/51/bslc.png[/img][/url]
 
 [img]https://i.imgur.com/wfvak1W.png[/img]
-
 **Tracklist**
-
 [img]https://i.imgur.com/KMZsqZn.png[/img]
-
 [b][color=#1e84cc]Source : [/color][/b] **Source**
 [b][color=#1e84cc]Codec audio : [/color][/b] **Codec audio**
 [b][color=#1e84cc]Paramètres audio : [/color][/b] **Paramètres audio**
 [b][color=#1e84cc]Débit audio moyen: [/color][/b] **Bitrate moyen**
-
 [img]https://i.imgur.com/KFsABlN.png[/img]
-
 **IF_RELEASE_START**[b][color=#1e84cc]Nom de la release : [/color][/b] **Release**
 **IF_RELEASE_END**[b][color=#1e84cc]Nombre de fichiers : [/color][/b] **Nombre de fichiers**
 [b][color=#1e84cc]Poids Total :[/color][/b] **Taille totale**
@@ -464,9 +459,8 @@ ${" ".repeat(U)}${I}
 [/size]
 [/font][/center]
 
-[right][sub]Propulsé par [i]FicheGen[/i][/sub][/right]`},minimaliste:{name:"Minimaliste",template:`[center][size=29][b][color=#1e84cc]**Artiste**
-
-**Titre album**[/color][/b]
+[right][size=10][i] Propulsé par FicheGen[/i][/size][/right]`},minimaliste:{name:"Minimaliste",template:`[center][size=29][color=#1e84cc][b]**Artiste**[/b]
+**Titre album**[/color]
 [/size]
 
 [img]**URL Cover**[/img]
@@ -477,19 +471,19 @@ ${" ".repeat(U)}${I}
 [b][color=#1e84cc]Label :[/color][/b] **Label**
 [b][color=#1e84cc]Genre :[/color][/b] **Genre** **Genre2**[/size]
 
-[size=18]🎶🎶🎶[/size]
+[size=29]🎶🎶🎶[/size]
 
 [size=13][b][color=#1e84cc]Date Sortie :[/color][/b] **Annee de publication**
 [b][color=#1e84cc]Nombres de pistes :[/color][/b] **Nombre de pistes**
 [b][color=#1e84cc]Durée totale :[/color][/b] **Duree totale album**[/size]
-
+[size=13]
 **Description** 
 
 [url=**URL Discogs**][img]https://i.imgur.com/IdvBKor.png[/img][/url] | [url=**URL Listenbrainz**][img]https://zupimages.net/up/21/51/bslc.png[/img][/url]
 
 **Tracklist**
 
-[size=13][b][color=#1e84cc]Source : [/color][/b] **Source**
+[b][color=#1e84cc]Source : [/color][/b] **Source**
 [b][color=#1e84cc]Codec audio : [/color][/b] **Codec audio**
 [b][color=#1e84cc]Paramètres audio : [/color][/b] **Paramètres audio**
 [b][color=#1e84cc]Débit audio moyen : [/color][/b] **Bitrate moyen**[/size]
@@ -499,7 +493,7 @@ ${" ".repeat(U)}${I}
 [size=13][b][color=#1e84cc]Poids Total :[/color][/b] **Taille totale**[/size]
 **IF_NOTES_START**[size=13][b][color=#1e84cc]Notes :[/color][/b] **Notes**[/size]**IF_NOTES_END**[/center]
 
-[right][sub]Propulsé par [i]FicheGen[/i][/sub][/right]`},moderne:{name:"Moderne",template:`[table][tr][td] [/td][td][table][tr][td][table][tr][td][table][tr][td]
+[right][size=10][i] Propulsé par FicheGen[/i][/size][/right]`},moderne:{name:"Moderne",template:`[table][tr][td] [/td][td][table][tr][td][table][tr][td][table][tr][td]
       [img width=550]**URL Cover**[/img]       [/td][td] [/td][/tr][/table][/td][td][table][tr][td]
     [/td][td]      [/td][/tr][/table][/td][td][table][tr][td][table][tr][td][table][tr][td][color=#3d85c6][size=29] **Artiste**[/size][/color][/td][/tr][tr][td][table][tr][td]  **Annee de publication** - [i][url="/torrents?tags=**Genre**"]**Genre**[/url][/i] [i][url="/torrents?tags=**Genre2**"]**Genre2**[/url][/i] - **Duree totale album**  [/td][td][size=10]   [/size][/td][td]   - [url=**URL Discogs**][img]https://i.imgur.com/IdvBKor.png[/img][/url] - [url=**URL Listenbrainz**][img]https://zupimages.net/up/21/51/bslc.png[/img][/url]   [/td][/tr][/table][/td][/tr][tr][td][hr=#FF0000][/hr][/td][/tr][/table][/td][/tr][tr][td][i][color=#c27ba0][size=29][center][b] **Titre album**[/b][/center][/size][/color][/i]
 [/td][/tr][tr][td] 

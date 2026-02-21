@@ -517,15 +517,32 @@ ${" ".repeat(ue)}${ae}
 [size=13][b][color=#1e84cc]Poids Total :[/color][/b] **Taille totale**[/size]
 **IF_NOTES_START**[size=13][b][color=#1e84cc]Notes :[/color][/b] **Notes**[/size]**IF_NOTES_END**[/center]
 
-[right][size=10][i] Propulsé par FicheGen[/i][/size][/right]`},moderne:{name:"Moderne",template:`[table][tr][td] [/td][td][table][tr][td][table][tr][td][table][tr][td]
-      [img]**URL Cover**[/img]       [/td][td] [/td][/tr][/table][/td][td][table][tr][td]
-    [/td][td]      [/td][/tr][/table][/td][td][table][tr][td][table][tr][td][table][tr][td][color=#3d85c6][size=29]  **Artiste**[/size][/color][/td][/tr][tr][td][table][tr][td]   **Annee de publication** - [i][url="/torrents?tags=**Genre**"]**Genre**[/url][/i] [i][url="/torrents?tags=**Genre2**"]**Genre2**[/url][/i] - **Duree totale album**  [/td][td][size=10]   [/size][/td][td]   - [url=**URL Discogs**][img]https://i.imgur.com/IdvBKor.png[/img][/url] - [url=**URL Listenbrainz**][img]https://zupimages.net/up/21/51/bslc.png[/img][/url]   [/td][/tr][/table][/td][/tr][tr][td][hr=#FF0000][/hr][/td][/tr][/table][/td][/tr][tr][td][i][color=#c27ba0][size=29][center][b] **Titre album**[/b][/center][/size][/color][/i]
-[/td][/tr][tr][td] 
-[/td][/tr][tr][td][table][tr][td][b][color=#3d85c6]Album :  [/color][/b] **Titre album**[/td][/tr][tr][td][b][color=#3d85c6]Artiste :  [/color][/b] **Artiste**[/td][/tr][tr][td][b][color=#3d85c6]Label :  [/color][/b] **Label**[/td][/tr][/table][/td][/tr][tr][td]  [br] [/br][b][color=#3d85c6]Description  [br] [/br] [br] [/br][/color][/b] [size=13]**Description**[/size][/td][/tr][tr][td]   [br] [/br][hr=#FF0000][/hr][/td][/tr][/table][/td][/tr][tr][td][table][tr][td][b][size=13][color=#3d85c6]Paramètres audio :   [/color][/b] **Paramètres audio**[/size][/td][td]   [/td][td][b][size=13][color=#3d85c6]   [right]Codec :   [/right][/color][/b] **Codec audio**[/size][/td][/tr][/table][/td][/tr][tr][td][table][tr][td][b][size=13][color=#3d85c6]Débit moyen :  [/color][/b] **Bitrate moyen**[/size][/td][td]   [/td][td][b][size=13][color=#3d85c6]   [right]Source  :  [/right][/color][/b] **Source**[/size][/td][/tr][/table][/td][/tr][tr][td][table][tr][td] [b][size=13][color=#3d85c6]Taille totale :  [/color][/b] **Taille totale**[/size][/td][td] [/td][td][b][size=13][color=#3d85c6]   [right]Nb de pistes :  [/right][/color][/b] **Nombre de pistes** [/size][/td][td][b][size=13][color=#3d85c6]   [right]Nb de fichiers :  [/right][/color][/b] **Nombre de fichiers**[/size][/td][/tr][/table][/td][/tr][tr][td][/td][/tr][tr][td][/td][/tr][tr][td][/td][/tr][/table][/td][/tr][/table]
+[right][size=10][i] Propulsé par FicheGen[/i][/size][/right]`},moderne:{name:"Moderne",template:`[table][tr][td]      [img]**URL Cover**[/img]       [/td][td]      [/td][td][color=#3d85c6][size=29] **Artiste**[/size][/color]
+[size=13]  **Annee de publication** - [i]**Genre**[/i] [i]**Genre2**[/i] - **Duree totale album** -   [url=**URL Discogs**][img]https://i.imgur.com/IdvBKor.png[/img][/url]    [url=**URL Listenbrainz**][img]https://zupimages.net/up/21/51/bslc.png[/img][/url]   [/size][hr /][center][i][color=#c27ba0][size=29][b]  **Titre album**[/b][/size][/color][/i][/center] 
+ [size=13] [/size]
+            [size=13][color=#3d85c6][b]Album : [/b][/color]  **Titre album**
+           [color=#3d85c6][b]Artiste :  [/b][/color] **Artiste**
+           [color=#3d85c6][b]Label : [/b][/color]  **Label**
+        
+           [b][color=#3d85c6]Description  [/color][/b]
+    [size=13] [/size]
+         [size=13]  **Description**[/size]
 
-[center] [size=29] 🎶 🎶 [/size]
+[center][size=13]〰️〰️〰️〰️〰️〰️〰️〰️〰️[/size][/center]
 
-[size=13]**Tracklist**[/size][/center][/td][/tr][tr][td][hr=#FF0000][/hr][/td][/tr]**IF_RELEASE_START**[tr][td][b][color=#3d85c6]Nom release :   [/color][/b] [br] [/br] **Release**[/td][/tr]**IF_RELEASE_END** **IF_NOTES_START**[tr][td][b][color=#3d85c6][br] [/br]Notes:  [/color][/b] [br] [/br] **Notes**[/td][/tr]**IF_NOTES_END**[/table][/td][/tr][/table]`}},Vc=r=>r&&([".jpg",".jpeg",".png",".gif",".webp",".bmp"].some(n=>r.toLowerCase().endsWith(n))?r:`${r}.jpg`),rT=async({metadata:r,release:e,details:t,style:n="classique",customCoverUrl:o,packAlbums:a})=>{console.log("🎨 generatePackPrez - style:",n),console.log("📊 generatePackPrez - metadata.averageBitrate:",r.averageBitrate),console.log("📊 generatePackPrez - metadata.bitrate:",r.bitrate),console.log("📊 generatePackPrez - metadata complète:",r);let l;o?l=Vc(o):e!=null&&e.id?l=Vc(await pi(t,e.id,"front-500")):l="https://i.imgur.com/zos6mfS.png";const u=Iw(t,e==null?void 0:e.id),f=parseFloat(r.totalSize),h=f>=1e3?`${(f/1e3).toFixed(2)} Go`:`${f} Mo`;let m="";a.forEach((x,w)=>{m+=`
+[size=13][b][color=#3d85c6] Paramètres audio :   [/color][/b] **Paramètres audio**    [/size]
+[size=13][b][color=#3d85c6] Codec :   [/color][/b]  **Codec audio**    [b][color=#3d85c6] Débit moyen :  [/color][/b] **Bitrate moyen**[/size]
+[size=13][b][color=#3d85c6] Source  :  [/color][/b] **Source**    [b][color=#3d85c6] Taille totale :   [/color][/b] **Taille totale**[/size]
+[size=13][b][color=#3d85c6] Nb de pistes :  [/color][/b]   **Nombre de pistes**    [b][color=#3d85c6] Nb de fichiers :  [/color][/b]   **Nombre de fichiers**[/size]
+[size=13] [/size]
+
+[/td][/tr][/table][center][size=29] 🎶 🎶 [/size]
+
+[size=13]**Tracklist**[/size][/center]
+[hr /]**IF_RELEASE_START**[left][size=13][b][color=#3d85c6]Nom release :   [/color][/b] **Release**[/size][/left]
+**IF_RELEASE_END** **IF_NOTES_START**[left][size=13][b][color=#3d85c6]Notes :   [/color][/b] **Notes**[/size][/left]
+**IF_NOTES_END**
+[right][size=10][i] Propulsé par FicheGen[/i][/size][/right]`}},Vc=r=>r&&([".jpg",".jpeg",".png",".gif",".webp",".bmp"].some(n=>r.toLowerCase().endsWith(n))?r:`${r}.jpg`),rT=async({metadata:r,release:e,details:t,style:n="classique",customCoverUrl:o,packAlbums:a})=>{console.log("🎨 generatePackPrez - style:",n),console.log("📊 generatePackPrez - metadata.averageBitrate:",r.averageBitrate),console.log("📊 generatePackPrez - metadata.bitrate:",r.bitrate),console.log("📊 generatePackPrez - metadata complète:",r);let l;o?l=Vc(o):e!=null&&e.id?l=Vc(await pi(t,e.id,"front-500")):l="https://i.imgur.com/zos6mfS.png";const u=Iw(t,e==null?void 0:e.id),f=parseFloat(r.totalSize),h=f>=1e3?`${(f/1e3).toFixed(2)} Go`:`${f} Mo`;let m="";a.forEach((x,w)=>{m+=`
 [b][color=#1e84cc]${x.year} - ${x.albumName}[/color][/b]
 `,x.tracks.forEach((S,_)=>{const k=(_+1).toString().padStart(2,"0"),N=S.duration?`(${Math.floor(S.duration/60)}:${(Math.floor(S.duration)%60).toString().padStart(2,"0")})`:"";m+=`${k}. ${S.title} ${N}
 `}),w<a.length-1&&(m+=`

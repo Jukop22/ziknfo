@@ -522,7 +522,7 @@ ${" ".repeat(ue)}${ae}
  [size=13] [/size]
             [size=13][color=#3d85c6][b]Album : [/b][/color]  **Titre album**
            [color=#3d85c6][b]Artiste :  [/b][/color] **Artiste**
-           [color=#3d85c6][b]Label : [/b][/color]  **Label**
+           [color=#3d85c6][b]Label : [/b][/color]  **Label**[/size]
         
            [b][color=#3d85c6]Description  [/color][/b]
     [size=13] [/size]

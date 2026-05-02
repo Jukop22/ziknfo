@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /prezviewer
+
+Sitemap: https://ziknfo.com/sitemap.xml

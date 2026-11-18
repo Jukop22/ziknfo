@@ -1,0 +1,1 @@
+import{bu as o,bh as s}from"./index-DmhgP88Y.js";const a=(e,r)=>{console.error("[Stockage] Écriture impossible :",e),o({variant:"destructive",title:r("error.storage.title"),description:r("error.storage.body",{error:s(e,r)})})},c=(e,r)=>e.then(()=>!0,t=>(a(t,r),!1));export{c as p,a as r};
